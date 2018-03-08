@@ -1,0 +1,24 @@
+{
+  "extends": [
+      "airbnb",
+      "plugin:flowtype/recommended",
+      "plugin:prettier/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": ["flowtype", "compat"],
+  "rules": {
+    "compat/compat": 2,
+    "semi": [2, "never"],
+    "no-unexpected-multiline": 2,
+    "import/prefer-default-export": 0
+  },
+  "settings": {
+    "polyfills": ["fetch"],
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}
