@@ -1,8 +1,7 @@
 {
   "extends": [
       "airbnb",
-      "plugin:flowtype/recommended",
-      "plugin:prettier/recommended"
+      "plugin:flowtype/recommended"
   ],
   "env": {
     "browser": true,
@@ -16,9 +15,6 @@
     "import/prefer-default-export": 0
   },
   "settings": {
-    "polyfills": ["fetch"],
-    "import/resolver": {
-      "babel-module": {}
-    }
+    "polyfills": ["fetch"]
   }
 }

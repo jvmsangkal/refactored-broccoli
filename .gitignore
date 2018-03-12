@@ -40,6 +40,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+flow-typed/
 jspm_packages/
 
 # Typescript v1 declaration files
